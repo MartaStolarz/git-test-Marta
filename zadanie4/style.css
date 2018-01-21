@@ -1,0 +1,57 @@
+.figure {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.circle {
+    border-radius: 3px solid rgb(22, 20, 192);
+    border-radius: 100px;
+    
+}
+.circle:first-child {
+    background: rgb(22, 20, 192);
+    display: block;
+}
+.figure:nth-of-type(even) {
+   border-style: dashed;
+   border: 3px dashed rgb(182, 55, 55);
+ }
+ .figure:nth-of-type(3) {
+    background: rgb(75, 10, 10);
+    
+  }
+  .figure:nth-of-type(4) {
+    background: rgb(36, 143, 41);
+    
+  }
+  .figure:nth-of-type(5) {
+    background: rgb(189, 46, 20);
+    
+  }
+ p:nth-of-type(odd) {
+     margin-left: 50px
+ }
+ p:nth-of-type(3) {
+     background-color: black;
+     color: white;
+     padding: 30px 0 10px 10px;
+ }
+ p:nth-of-type(6) {
+    background-color: rgb(212, 49, 49);
+
+    padding: 0px;
+}
+.figure:last-of-type::before {
+  
+        width: 0;
+        height: 0;
+        content: " ";
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 120px solid rgb(155, 118, 120);
+        margin: 40px auto 0;
+    }
+}
