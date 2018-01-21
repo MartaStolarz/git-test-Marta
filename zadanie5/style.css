@@ -1,0 +1,42 @@
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 { 
+      background: rgb(84, 72, 155) ;
+      padding: 1,5em;
+      color: blue;
+      font-size: 3em;
+}
+h2 { 
+    color: rgb20, rgb(41, 172, 41);
+    font-family: cursive
+}
+.zwierze {
+    display: inline-block;
+    
+    vertical-align: top;
+
+}
+.wstep {
+    display: inline-block;
+    width: 50%;
+}
+.aktorzy ul li >*{
+    display: inline-block;
+}
+.aktorzy ul li >p{
+    width: calc(100%-210px);
+}
+main {
+    width: 900px;
+    margin: 0  auto;
+}
+ul { list-style:none;
+}
+nav li {
+    display: inline-block;
+}
+nav {
+    padding: 20px;
+    background: rgb(20, 20, 20);
+}
