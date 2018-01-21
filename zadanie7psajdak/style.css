@@ -1,0 +1,71 @@
+/*
+
+  Zadanie: Ustaw Kaczora
+
+  Mozna uzywać tylko własności: position, top, bottom, left, right, margin
+
+  1. ustaw kaczora pływającego z lewej strony jeziora.
+  2. ustaw kaczora centralnie na środku wyspy na jeziorze.
+  3. ustaw kaczora przechodzącego przez środek pasów.
+  4. ustaw wyspę i kaczora centralnie na środku jeziora.
+
+*/
+
+html {
+  background: green; /* nie usuwać i nie zmieniać */
+}
+
+html, body {
+  height: 100%; /* nie usuwać i nie zmieniać */
+  min-width: 900px; /* nie usuwać i nie zmieniać */
+}
+
+.lake {
+  width: 600px; /* nie usuwać i nie zmieniać */
+  height: 500px; /* nie usuwać i nie zmieniać */
+  background: blue; /* nie usuwać i nie zmieniać */
+  margin: 100px 0 0 250px; /* nie usuwać i nie zmieniać */
+  border-radius: 50%; /* nie usuwać i nie zmieniać */
+  display: inline-block; /* nie usuwać i nie zmieniać */
+  
+  
+
+}
+
+.island {
+  width: 200px; /* nie usuwać i nie zmieniać */
+  height: 150px; /* nie usuwać i nie zmieniać */
+  background: brown; /* nie usuwać i nie zmieniać */
+  border-radius: 30%; /* nie usuwać i nie zmieniać */
+  margin: 200px 0 0 260px; /* nie usuwać i nie zmieniać */
+  
+}
+
+.road {
+  width: 100%; /* nie usuwać i nie zmieniać */
+  height: 100px; /* nie usuwać i nie zmieniać */
+  background: gray; /* nie usuwać i nie zmieniać */
+  position: absolute; /* nie usuwać i nie zmieniać */
+  bottom: 50px; /* nie usuwać i nie zmieniać */
+  
+}
+
+.road span {
+  width: 200px; /* nie usuwać i nie zmieniać */
+  height: 20px; /* nie usuwać i nie zmieniać */
+  margin: 0 auto; /* nie usuwać i nie zmieniać */
+  display: block; /* nie usuwać i nie zmieniać */
+}
+
+.road span:nth-of-type(odd) {
+  background: white; /* nie usuwać i nie zmieniać */
+}
+
+img {
+  position: absolute; /* nie usuwać i nie zmieniać */
+  
+  left: 0px;
+  right: 0px;
+  bottom: 100px;
+  margin: auto;
+}
