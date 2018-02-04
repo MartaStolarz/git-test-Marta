@@ -1,0 +1,42 @@
+.triple-set {
+    display: flex;
+    width: 100%;
+}
+
+.triple-set>* {
+    width: 33%;
+}
+
+.triple-set .input-group {
+    display: flex;
+}
+
+.triple-set .input-group label {
+    min-width: 150px
+}
+
+.triple-set .input-group input {
+    flex: 1;
+    margin-right: 30px;
+}
+.double-set {
+    display: flex;
+    width: 100%;
+}
+
+.double-set>* {
+    width: 50%;
+}
+
+.double-set .input-group2 {
+    display: flex;
+}
+
+.double-set .input-group2 label {
+    min-width: 150px
+}
+
+.double-set .input-group2 input {
+    flex: 1;
+    margin-right: 30px;
+}

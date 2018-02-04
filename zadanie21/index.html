@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <title>Tabela</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="zzz">
+    <meta name="keywords" content="yyy">
+    <meta name="author" content="Marta Stolarz">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1> Dodaj użytkownika</h1>
+    <form id="userdata">
+        <fieldset>
+            <legend>Dane osobiste</legend>
+            <section class="triple-set">
+                <div class="input-group">
+                    <required>
+                    <label for="name">Imię</label>
+                    <input type="text" name="name" maxlength="20">
+                                       </required>
+
+                </div>
+                <div class="input-group">
+                    <label for="surname">Nazwisko</label>
+                    <input type="surname" name="surname">
+
+                </div>
+                <div class="input-group">
+                    <label for="date">Data urodzenia</label>
+                    <input type="date" name="date">
+
+                </div>
+            </section>
+
+            <section class="triple-set">
+                <div class="input-group">
+                    <label for="age">Wiek</label>
+                    <input type="number" name="age" min="16">
+                    
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                </div>
+            </section>
+            <section class="triple-set">
+                <div class="input-group">
+                    <label for="country">Kraj</label>
+                    <select name="country">
+                        <option value="Polska">Polska</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Hasło</legend>
+            <section class="double-set">
+
+                <div class="input-group2">
+                    <label for="password">Hasło</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="input-group2">
+                    <label for="password">Powtórz hasło</label>
+                    <input type="password" name="password">
+                </div>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Inne</legend>
+            <section class="set">
+
+                <div class="double-set">
+                    <div class="film">
+                        <p>
+                            Ulubione
+                            <br>filmy
+                        </p>
+
+                        <div class="choicegroup">
+                            <div>
+                                <label for="komedia">komedia</label>
+                                <input type="checkbox" name="checkbox">
+                            </div>
+                            <div>
+                                <label for="komedia romantyczna">komedia romantyczna</label>
+                                <input type="checkbox" name="checkbox">
+                            </div>
+                            <div>
+                                <label for="akcji">akcji</label>
+                                <input type="checkbox" name="checkbox">
+                            </div>
+                            <div>
+                                <label for="Sci-fi">Sci-fi</label>
+                                <input type="checkbox" name="checkbox">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="male">
+                        <p>
+                            Płeć
+                        </p>
+                    </div>
+                    <div>
+                        <input type="radio" id="man" name="gender">
+
+                        <label for="man">Mężczyzna</label>
+                        <input type="radio" id="woman" name="gender">
+                        <label for="woman">Kobieta</label>
+                    </div>
+                    </div>
+
+
+        </fieldset>
+        <input type="reset" form="register-form" />
+        <input type="submit" value="Submit" />
+
+    </form>
+
+</body>
+
+</html>
